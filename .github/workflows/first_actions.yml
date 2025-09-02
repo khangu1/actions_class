@@ -1,0 +1,13 @@
+name: my_first_workflow
+
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  job_one:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: greeting
+        run: echo "yeon si eun"

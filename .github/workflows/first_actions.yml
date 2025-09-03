@@ -12,9 +12,9 @@ jobs:
       - name: greeting
         run: echo "Everyone Shall sit under their own vine and fig tree ..."
 
-   job_two:
-     run-on: ubuntu-latest
-     steps:
+  job_two:
+    runs-on: ubuntu-latest
+    steps:
        - uses: actions/checkout@4
        - name: goodbye
          run: echo "Jesus Christ"

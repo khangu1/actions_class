@@ -15,6 +15,5 @@ jobs:
   job_two:
     runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@4
        - name: goodbye
          run: echo "Jesus Christ"

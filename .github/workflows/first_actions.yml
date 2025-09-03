@@ -13,6 +13,7 @@ jobs:
         run: echo "Everyone Shall sit under their own vine and fig tree ..."
 
   job_two:
+    needs: job_one 
     runs-on: ubuntu-latest
     steps:
        - name: goodbye
